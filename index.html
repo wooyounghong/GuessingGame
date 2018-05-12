@@ -10,30 +10,30 @@
       <div id='app'>
 
         <div id='headers' class='center'>
-          <h2>Play the Guessing Game</h1>
-          <h4>Guess a Number between 1-100!</h3>
+          <h1>Play the Guessing Game</h1>
+          <h3>Guess a Number between 1-100!</h3>
         </div>
 
         <div id='main'>
           <div id='input-parent' class='center'>
             <!-- Player's guess input, and submit button -->
-            <input type="player-input" class="center" placeholder='#' maxlength='3' autofocus='autofocus'>
-            <button id='submit'>Go!</button>
+            <input type="player-input" class="center" id="input-guess"placeholder='#' maxlength='3' autofocus='autofocus'>
+            <button id='btn-submit'>Go!</button>
          </div>
 
           <div id='guesses' class='center'>
             <!-- unordered list of guesses -->
-            <ul class='guess'></ul>
-            <ul class='guess'></ul>
-            <ul class='guess'></ul>
-            <ul class='guess'></ul>
-            <ul class='guess'></ul>
+            <ul class='guess'>-</ul>
+            <ul class='guess'>-</ul>
+            <ul class='guess'>-</ul>
+            <ul class='guess'>-</ul>
+            <ul class='guess'>-</ul>
           </div>
 
           <div id="menu-btns" class='center'>
             <!-- reset and hint buttons -->
-            <button>Reset</button>
-            <button>Hint</button>
+            <button id='btn-reset'>Reset</button>
+            <button id='btn-hint'>Hint</button>
           </div>
         </div>
       </div>
@@ -42,15 +42,15 @@
 
     <div id='footer'>
         <div>
-          <div class=''>
+          <div class='img-fs' >
             <img src='img/fa-logo@2x.png'></img>
           </div>
 
-          <div class=''>
+          <div class='img-container'>
             <h4>Project by Wayne Wooyoung Hong</h4>
           </div>
 
-          <div class=''>
+          <div class='img-gh'>
             <img src='img/grace_hopper_academy.png'></img>
           </div>
 
